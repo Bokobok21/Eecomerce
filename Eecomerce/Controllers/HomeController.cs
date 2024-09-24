@@ -22,6 +22,10 @@ namespace Eecomerce.Controllers
         {
             return View();
         }
+        public IActionResult HelloWorld()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
